@@ -1,0 +1,24 @@
+//menu Main navigation styling
+.menu {
+
+	&__row {
+		display: flex;
+	}
+
+	&__list {
+		list-style: none;
+		margin: 0 15px;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: color('darksalmon');
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+			color: color('dark');
+		}
+	}
+
+}
