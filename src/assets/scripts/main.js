@@ -1,4 +1,4 @@
-import './_anime.min'
-import './_charming.min'
-import './_imagesloaded.pkgd.min'
-import './_demo'
+import './_anime.min';
+import './_charming.min';
+//import './_imagesloaded.pkdg.min';
+//import './_demo1'
