@@ -1,0 +1,57 @@
+//header styling
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 2.188em 6.25em 0;
+}
+
+.hero-header {
+	position: relative;
+	justify-content: center;
+	min-height: 100vh;
+	color: #fff;
+	text-align: center;
+}
+
+.hero-header .background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #2196F3;
+	z-index: -1;
+}
+
+//menu Main navigation styling
+.menu {
+
+	&__row {
+		display: flex;
+	}
+
+	&__list {
+		list-style: none;
+		margin: 0 .938em;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: color('darksalmon');
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+			color: color('dark');
+		}
+	}
+
+}
