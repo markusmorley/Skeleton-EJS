@@ -1,23 +1,19 @@
 //header styling
 .header {
-	position: absolute;
-	top: 0;
-	left: 0;
 	z-index: 10;
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: #fff;
-	padding: 2.188em 6.25em 0;
+	//display: flex;
+	//justify-content: space-between;
+	//align-items: center;
+
 }
 
 .hero-header {
-	position: relative;
-	justify-content: center;
-	min-height: 100vh;
+	//display: flex;
+	//justify-content: center;
+	//min-height: 100vh;
 	color: #fff;
-	text-align: center;
+	align-items: center;
 }
 
 .hero-header .background-image {

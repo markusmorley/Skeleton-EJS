@@ -7,9 +7,21 @@
 	//flex-direction: column-reverse;
 
 	&__item {
-		width: 90%;
+		flex: 1;
 		background-color: #fff;
 		margin: 20px;
+	}
+
+	&__item:nth-child(2) {
+		background-color: #999;
+	}
+
+	&__item:nth-child(3) {
+		background-color: #333;
+	}
+
+	&__item:nth-child(5) {
+		background-color: #666;
 	}
 }
 
@@ -22,9 +34,13 @@
 	flex-flow: row;
 
 	&__item {
-		width: 200px;
+		flex: 1;
 		height: 100px;
 		background-color: #aaa;
 		margin: 20px;
+	}
+
+	&__item:nth-child(3) {
+		background-color: #333;
 	}
 }
